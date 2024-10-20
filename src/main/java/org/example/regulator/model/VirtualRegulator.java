@@ -12,7 +12,6 @@ public class VirtualRegulator {
 
     public VirtualRegulator() {
         this.outData = new ArrayList<>();
-
     }
 
     public float getInData() {

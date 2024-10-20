@@ -13,11 +13,11 @@ public class Server {
         Regulator regulator = Regulator.create();
         // Задать температуру
         regulator.setTemperatura(outData);
-        System.out.println("Температуры: " + regulator.getValuesTemperature());
+        System.out.println("Температуры: " + regulator.getValuesTemperature(outData));
 
         // Очистить значения температуры
         regulator.deleteValuesTemperature();
-        System.out.println("Температуры после очистки: " + regulator.getValuesTemperature());
+        System.out.println("Температуры после очистки: " + regulator.getValuesTemperature(outData));
 
         // Завершим работу
         Regulator.shutDown();

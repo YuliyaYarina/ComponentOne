@@ -8,7 +8,7 @@ public interface Regulator {
 
     void setTemperatura(List<Float> temperatura);
 
-    List<Float> getValuesTemperature();
+    int getValuesTemperature(List<Float> outData);
 
     void deleteValuesTemperature();
 
