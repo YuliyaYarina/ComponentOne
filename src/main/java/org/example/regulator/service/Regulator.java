@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface Regulator {
 
-    void setTemperatura(List<Float> temperatura);
+    void setTemperatura(List<Float> outData);
 
     int getValuesTemperature(List<Float> outData);
 
